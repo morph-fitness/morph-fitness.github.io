@@ -1,0 +1,25 @@
+#navbarSupportedContent > ul > li {
+  margin-right: 1.5rem;
+}
+
+@keyframes example {
+    from {color: white;}
+    to {color: #149dcc;}
+}
+
+#contact-join-facebook-group:hover {
+  color: #149dcc !important;
+  animation-name: example;
+  animation-duration: 0.7s;
+}
+
+.city-bg {
+  background-image: url('../images/city.jpg');
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+.card-icon {
+  width: 8rem !important;
+}
+
+/* Make page collapse change for navbar */
