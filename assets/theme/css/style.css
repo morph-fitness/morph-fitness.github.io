@@ -190,8 +190,12 @@ figure[mbr-media-size] {
 
 .card-img {
   text-align: center;
-  flex-shrink: 0; }
+  /* flex-shrink: 0; */
+  
+  /* max-height: 445px; */
+}
 
+/* Note: card-img class needs to be fixed for max-height property */
 .media {
   max-width: 100%;
   margin: 0 auto; }
