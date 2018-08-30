@@ -1551,7 +1551,7 @@ pre {
 }
 
 .card-img {
-  width: auto;
+  /* width: auto; */
 }
 
 .menu .navbar.collapsed:not(.beta-menu) {
