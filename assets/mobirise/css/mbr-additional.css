@@ -2591,7 +2591,7 @@ body {
 .cid-qY7vlaYcRn {
   padding-top: 90px;
   padding-bottom: 105px;
-  background-image: url("../../../assets/images/servicesBG.HEIC");
+  background-image: url("../../../assets/images/servicesBG.jpg");
 }
 
 .cid-qY7vlaYcRn .card-box {
@@ -3277,7 +3277,10 @@ body {
 .cid-qY7PD4m4Wg {
   padding-top: 90px;
   padding-bottom: 75px;
-  background-image: url("../../../assets/images/sunset-1350x900.jpg");
+  /* background-image: url("../../../assets/images/sunset-1350x900.jpg"); */
+  background-image: url("../../../assets/images/servicesBG.HEIC");
+  background-attachment: fixed;
+  background-position: center top;
 }
 
 .cid-qYaYJi1QKz {
@@ -4681,7 +4684,7 @@ body {
 }
 
 .cid-qYaWZgdNZK {
-  background-image: url("../../../assets/images/sunset-1350x900.jpg");
+  background-image: url("../../../assets/images/ContactUsBG.jpeg");
 }
 
 .cid-qYaTutapbo {
