@@ -18,10 +18,16 @@
   <link rel="stylesheet" href="assets/theme/css/style.css">
   <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
   <link rel="stylesheet" href="assets/custom/style.css">
-  <!-- <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,100i,300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
-    BLACK COLOR: #0C1418
-    BLUE COLOR: #3F77D1
-  -->
+
+  <script src="assets/web/assets/jquery/jquery.min.js"></script>
+  <script>
+    $(function() {
+      $("#footer").load("./footer.html");
+      // $("#header").load("../../header.html");
+    });
+  </script>
+  <script src="assets/custom/setFullYear.js"></script>
+
 </head>
 <body>
   <section class="menu cid-qTkzRZLJNu" once="menu" id="menu1-0">
@@ -93,8 +99,8 @@
       <div class="row justify-content-md-center pt-5">
         <div class="mbr-white col-md-10">
           <h1 class="mbr-section-title mbr-bold pb-3 mbr-fonts-style display-1">
-            MORPH FITNESS</h1>
-
+            MORPH FITNESS
+          </h1>
           <p class="mbr-text pb-3 mbr-fonts-style display-5">
             Morph Fitness is dedicated to helping their clients <strong>radically transform</strong> their health and fitness so they not only look better,
             but feel better and enjoy a higher quality of life. With a unique blend of expert personal training and individualized coaching,
@@ -156,133 +162,20 @@
       </div>
         <div class="mbr-testimonial p-3 align-center col-12">
             <img src="assets/images/yelp-2.jpg" style="width: 20rem;">
-            <div style="margin: 5rem 0;text-align: center;">
+            <div class="mbr-section-btn my-5">
+              <a class="btn btn-md btn-primary display-4" href="about-us.html">LEARN MORE</a>
+              <a class="btn btn-md btn-white-outline display-4" href="services.html">GET STARTED</a>
+            </div>
+            <!-- <div style="margin: 5rem 0;text-align: center;">
               <a class="btn btn-md btn-primary display-4 d-inline" style="border-radius: 100px;" href="about-us.html">LEARN MORE</a>
               <a class="btn btn-md btn-white-outline display-4 d-inline" style="border-radius: 100px;" href="services.html">GET STARTED</a>
-            </div>
+            </div> -->
         </div>
     </div>
   </section>
 
-  <!-- <section class="white-to-gray-gradient">
-    <div class="container-fluid pb-5">
-      <div class="row">
-        <div class="title col-md-12 align-center">
-          <h2 class="pb-3 mbr-fonts-style display-2 mt-5">
-            <strong style="text-transform: uppercase">Check this video!</strong>
-          </h2>
-          <h3 class="mbr-section-subtitle mbr-light pb-3 mbr-fonts-style display-5">
-            Check this video!
-          </h3>
-        </div>
-        <div class="col-md-12 align-center">
-          <iframe class="embeded-video" width="600" height="355" src="https://www.youtube.com/embed/xcJtL7QggTI" frameborder="0" allow="autoplay; encrypted-media"
-            allowfullscreen></iframe>
-        </div>
-        <div class="col-md-12 mt-4 align-center">
-          <a class="btn btn-lg btn-primary display-4" href="index.html">Learn More</a>
-        </div>
-      </div>
-    </div>
-  </section> -->
+  <div id="footer"></div>
 
-
-  <section class="cid-qTkAaeaxX5 mbr-reveal" id="footer1-2">
-    <div class="container">
-      <div class="media-container-row content text-white">
-        <div class="col-12 col-md-2">
-          <div class="media-wrap">
-            <span class="navbar-caption-wrap">
-              <a class="navbar-caption text-white display-4" href="index.html">
-                MORPH FITNESS</a>
-            </span>
-          </div>
-        </div>
-        <div class="col-12 col-md-3 mbr-fonts-style display-7">
-          <h5 class="pb-3">Address</h5>
-          <p class="mbr-text">
-            23 S Railroad Avenue,
-            <br>San Mateo, 94401
-            <br>
-            <br> 1000 King Drive,
-            <br>Daly City, 94015
-          </p>
-        </div>
-        <div class="col-12 col-md-4 mbr-fonts-style display-7">
-          <h5 class="pb-3">Quick Contact</h5>
-          <p class="mbr-text">
-            wayne.morphfitness@gmail.com&nbsp;
-            <br>
-            <br>Phone:
-            <br>+1 (650) 238-7490&nbsp;
-            <br>
-          </p>
-        </div>
-        <div class="col-12 col-md-3 mbr-fonts-style display-7">
-          <h5 class="pb-3">
-            Links
-          </h5>
-          <ul class="footer-link-list">
-            <li>
-              <a href="index.html" class="footer-link">Home</a>
-            </li>
-            <li>
-              <a href="services.html" class="footer-link">Services</a>
-            </li>
-            <li>
-              <a href="about-us.html" class="footer-link">About Us</a>
-            </li>
-            <li>
-              <a href="faqs.html" class="footer-link">FAQs</a>
-            </li>
-            <li>
-              <a href="contact.html" class="footer-link">Contact</a>
-            </li>
-            <li>
-              <a href="locations.html" class="footer-link">Locations</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="footer-lower">
-        <div class="media-container-row">
-          <div class="col-sm-12">
-            <hr>
-          </div>
-        </div>
-        <div class="media-container-row mbr-white">
-          <div class="col-sm-6 copyright">
-            <p class="mbr-text mbr-fonts-style display-7">
-              © Copyright 2018 Morph Fitness - All Rights Reserved
-            </p>
-            <a href="privacy.html" class="mbr-white mbr-text mbr-fonts-style display-7">Privacy Policy</a>
-          </div>
-          <div class="col-md-6">
-            <div class="social-list align-right">
-              <div class="soc-item">
-                <a href="https://www.facebook.com/Morph-Fitness-1950252098578391/?modal=suggested_action&notif_id=1532736437425992&notif_t=page_user_activity"
-                  target="_blank">
-                  <span class="socicon-facebook socicon mbr-iconfont mbr-iconfont-social"></span>
-                </a>
-              </div>
-              <div class="soc-item">
-                <a href="https://www.youtube.com/channel/UCB-xrB73SG1y5ydDmiev3ig/videos?view_as=subscriber" target="_blank">
-                  <span class="socicon-youtube socicon mbr-iconfont mbr-iconfont-social"></span>
-                </a>
-              </div>
-              <div class="soc-item">
-                <a href="https://instagram.com/pasangarang" target="_blank">
-                  <span class="socicon-instagram socicon mbr-iconfont mbr-iconfont-social"></span>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <script src="assets/web/assets/jquery/jquery.min.js"></script>
   <script src="assets/popper/popper.min.js"></script>
   <script src="assets/tether/tether.min.js"></script>
   <script src="assets/bootstrap/js/bootstrap.min.js"></script>
